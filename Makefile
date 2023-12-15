@@ -1,4 +1,4 @@
-CXXFLAGS = -O3 -g0 -mtune-generic
+CXXFLAGS = -O3 -g0
 LDFLAGS = $(CXXFLAGS)
 
 dnsseed: dns.o bitcoin.o netbase.o protocol.o db.o main.o util.o
