@@ -1,7 +1,11 @@
-dogecoin-seeder
+bells-seeder
 ===============
 
-Dogecoin-seeder is a crawler for the Dogecoin network, which exposes a list
+```bash
+/root/bells-seeder/dnsseed -n seed.belscan.io -h seeder.belscan.io
+```
+
+bells-seeder is a crawler for the bells network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
@@ -50,11 +54,11 @@ To help understand the NS settings, the request process works like this:
 2. His DNS server goes up the DNS chain and finds which DNS server knows this address.
 3. The authorative server for example.com tells us that vps.example.com is the NS server for dnsseed.example.com.
 4. The A request gets send to vps.example.com.
-5. dogecoin-seeder takes this request and returns a set of IPs back to the client.
+5. bells-seeder takes this request and returns a set of IPs back to the client.
 
 So in short: Set an NS record on dnssseed.example.com pointing to whereever the 
-dogecoin-seeder is running. Make sure the address you put in there 
-(vps.example.com) points to this server. Run dogecoin-seeder with the above parameters.
+bells-seeder is running. Make sure the address you put in there
+(vps.example.com) points to this server. Run bells-seeder with the above parameters.
 
 If all goes right, a query to dnsseed.example.com should 
 report several IP addresses as A records. Note that it might take a few hours
