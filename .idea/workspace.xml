@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003e32bb-0a13-4dde-bafc-466ee35dece6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin.cpp" afterDir="false" />
@@ -62,7 +63,7 @@
       <workItem from="1702606959685" duration="4440000" />
       <workItem from="1702622908650" duration="1237000" />
       <workItem from="1702703152386" duration="1508000" />
-      <workItem from="1702705127257" duration="646000" />
+      <workItem from="1702705127257" duration="788000" />
     </task>
     <servers />
   </component>

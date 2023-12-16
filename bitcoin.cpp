@@ -36,7 +36,7 @@ class CNode {
     nHeaderStart = vSend.size();
     vSend << CMessageHeader(pszCommand, 0);
     nMessageStart = vSend.size();
-//    printf("%s: SEND %s\n", ToString(you).c_str(), pszCommand); 
+    printf("%s: SEND %s\n", ToString(you).c_str(), pszCommand);
   }
   
   void AbortMessage() {
@@ -86,7 +86,7 @@ class CNode {
   }
  
   void GotVersion() {
-    // printf("\n%s: version %i\n", ToString(you).c_str(), nVersion);
+     printf("\n%s: version %i\n", ToString(you).c_str(), nVersion);
     if (vAddr) {
       BeginMessage("getaddr");
       EndMessage();
@@ -170,13 +170,13 @@ class CNode {
       CMessageHeader hdr;
       vRecv >> hdr;
       if (!hdr.IsValid()) { 
-        // printf("%s: BAD (invalid header)\n", ToString(you).c_str());
+         printf("%s: BAD (invalid header)\n", ToString(you).c_str());
         ban = 100000; return true;
       }
       string strCommand = hdr.GetCommand();
       unsigned int nMessageSize = hdr.nMessageSize;
       if (nMessageSize > MAX_SIZE) { 
-        // printf("%s: BAD (message too large)\n", ToString(you).c_str());
+         printf("%s: BAD (message too large)\n", ToString(you).c_str());
         ban = 100000;
         return true; 
       }
@@ -194,7 +194,7 @@ class CNode {
       vRecv.ignore(nMessageSize);
       if (ProcessMessage(strCommand, vMsg))
         return true;
-//      printf("%s: done processing %s\n", ToString(you).c_str(), strCommand.c_str());
+      printf("%s: done processing %s\n", ToString(you).c_str(), strCommand.c_str());
     } while(1);
     return false;
   }
@@ -240,11 +240,11 @@ public:
         vRecv.resize(nPos + nBytes);
         memcpy(&vRecv[nPos], pchBuf, nBytes);
       } else if (nBytes == 0) {
-        // printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
+         printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
         res = false;
         break;
       } else {
-        // printf("%s: BAD (connection error)\n", ToString(you).c_str());
+         printf("%s: BAD (connection error)\n", ToString(you).c_str());
         res = false;
         break;
       }
