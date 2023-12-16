@@ -10,27 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003e32bb-0a13-4dde-bafc-466ee35dece6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bells-seeder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bells-seeder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitcoin.h" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine.pl" beforeDir="false" afterPath="$PROJECT_DIR$/combine.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compat.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/db.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns.c" beforeDir="false" afterPath="$PROJECT_DIR$/dns.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns.h" beforeDir="false" afterPath="$PROJECT_DIR$/dns.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netbase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/netbase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/netbase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serialize.h" beforeDir="false" afterPath="$PROJECT_DIR$/serialize.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strlcpy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strlcpy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.pl" beforeDir="false" afterPath="$PROJECT_DIR$/test.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uint256.h" beforeDir="false" afterPath="$PROJECT_DIR$/uint256.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/util.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;testnet/0.7.0-beta&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/dev/bellscoin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "testnet/latest",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/dev/bellscoin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +61,8 @@
       <updated>1702606958622</updated>
       <workItem from="1702606959685" duration="4440000" />
       <workItem from="1702622908650" duration="1237000" />
-      <workItem from="1702703152386" duration="1145000" />
+      <workItem from="1702703152386" duration="1508000" />
+      <workItem from="1702705127257" duration="646000" />
     </task>
     <servers />
   </component>
