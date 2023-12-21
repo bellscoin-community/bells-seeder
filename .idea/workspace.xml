@@ -10,9 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003e32bb-0a13-4dde-bafc-466ee35dece6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcoin.h" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine.pl" beforeDir="false" afterPath="$PROJECT_DIR$/combine.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compat.h" beforeDir="false" afterPath="$PROJECT_DIR$/compat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/db.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.h" beforeDir="false" afterPath="$PROJECT_DIR$/db.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns.c" beforeDir="false" afterPath="$PROJECT_DIR$/dns.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns.h" beforeDir="false" afterPath="$PROJECT_DIR$/dns.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netbase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/netbase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/netbase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialize.h" beforeDir="false" afterPath="$PROJECT_DIR$/serialize.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strlcpy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strlcpy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.pl" beforeDir="false" afterPath="$PROJECT_DIR$/test.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uint256.h" beforeDir="false" afterPath="$PROJECT_DIR$/uint256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/util.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
